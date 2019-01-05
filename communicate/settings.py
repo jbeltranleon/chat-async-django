@@ -75,6 +75,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'communicate.wsgi.application'
+# Channels
+ASGI_APPLICATION = 'communicate.routing.application'
 
 
 # Database
